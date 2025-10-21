@@ -28,14 +28,15 @@ export function ExpertGallerySection() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-5xl font-bold text-black mb-6">
-            Security experts
+            Enterprise-Grade AI Security
             <br />
-            behind every deployment
+            Built by Security Experts
           </h2>
           <div className="flex items-center gap-4">
             <p className="text-lg text-gray-600 max-w-2xl">
-              Our team of AI security specialists, compliance officers, and governance experts ensure your AI agents
-              operate safely and within policy boundaries.
+              Our platform is built by a team of AI security specialists, compliance officers, and governance experts
+              with decades of combined experience securing enterprise systems. We understand the unique challenges of AI
+              security because we've lived them.
             </p>
             <Button
               variant="outline"
@@ -55,8 +56,8 @@ export function ExpertGallerySection() {
                 className={`flex-shrink-0 w-48 h-64 ${expert.color} rounded-2xl overflow-hidden shadow-lg`}
               >
                 <Image
-                  src={`/.jpg?key=pydem&height=256&width=192&query=${expert.query}`}
-                  alt="Digital Forensic Expert"
+                  src="/placeholder.svg?height=256&width=192"
+                  alt="Security Expert"
                   width={192}
                   height={256}
                   className="w-full h-full object-cover"
